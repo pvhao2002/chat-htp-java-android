@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatHTP</string>
+    <string name="email">Email</string>
+    <string name="logout">Logout</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="l_i_m_i_k_t_b_n">Lời mời kết bạn</string>
+</resources>

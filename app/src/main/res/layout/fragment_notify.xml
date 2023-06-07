@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".Fragment.NotifyFragment">
+
+    <LinearLayout
+        android:id="@+id/contentNotify"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/l_i_m_i_k_t_b_n"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtQuantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/l_i_m_i_k_t_b_n"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/contentNotify"
+        />
+
+
+</RelativeLayout>

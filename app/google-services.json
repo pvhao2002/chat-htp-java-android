@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460677551954",
+    "project_id": "cnpm05-8d4af",
+    "storage_bucket": "cnpm05-8d4af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460677551954:android:1395083ee37f3a0a68cc8b",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.chathtp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUE4fBKDR8M_VhSVszGuQV66aUt_ev1pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
